@@ -13,7 +13,7 @@ helpers = {
     var checkFr = 0;
 
     try {
-      fs.writeFile('./server/json/' + code + '-en.i18n.json', JSON.stringify(objEn), 'utf8', function(err){
+      fs.writeFile('./server/json/' + code + '-en.i18n.json', JSON.stringify(objEn, null, 2), 'utf8', function(err){
         if (err) throw (err);
       });
     } catch (err) {
@@ -23,7 +23,7 @@ helpers = {
     }
 
     try {
-      fs.writeFile('./server/json/' + code + '-fr.i18n.json', JSON.stringify(objFr), 'utf8', function(err){
+      fs.writeFile('./server/json/' + code + '-fr.i18n.json', JSON.stringify(objFr, null, 2), 'utf8', function(err){
         if (err) throw (err);
       });
     } catch (err) {

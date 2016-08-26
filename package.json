@@ -29,7 +29,13 @@
     "node": "5.10.1"
   },
   "devDependencies": {
+    "css-loader": "^0.23.1",
     "gulp": "^3.9.1",
-    "gulp-jscs": "^3.0.2"
+    "gulp-jscs": "^3.0.2",
+    "node-sass": "^3.8.0",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
   }
 }
