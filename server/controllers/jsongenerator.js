@@ -17,7 +17,7 @@ helpers = {
         if (err) throw (err);
       });
     } catch (err) {
-      console.log('Unable to save English version: ', err);
+      message = 'Unable to save English version: ' + err;
     } finally {
       checkEn = 1;
     }
@@ -27,7 +27,7 @@ helpers = {
         if (err) throw (err);
       });
     } catch (err) {
-      console.log('Unable to save French version: ', err);
+      message = 'Unable to save French version: ' + err;
     } finally {
       checkFr = 1;
     }
